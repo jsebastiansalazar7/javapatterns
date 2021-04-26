@@ -16,6 +16,6 @@ public class ItalianFood implements Food {
 
     @Override
     public void cook(String dish) {
-        System.out.println("Preparing the Peruvian dish: " + dish);
+        System.out.println("Preparing the Italian dish: " + dish);
     }
 }

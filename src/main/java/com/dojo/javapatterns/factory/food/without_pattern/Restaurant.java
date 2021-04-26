@@ -1,9 +1,6 @@
 package com.dojo.javapatterns.factory.food.without_pattern;
 
-import com.dojo.javapatterns.factory.food.ItalianFood;
-import com.dojo.javapatterns.factory.food.JapaneseFood;
-import com.dojo.javapatterns.factory.food.MexicanFood;
-import com.dojo.javapatterns.factory.food.PeruvianFood;
+import com.dojo.javapatterns.factory.food.*;
 
 import java.util.List;
 
@@ -53,5 +50,7 @@ public class Restaurant {
         peruvianFood.buyIngredients(peruvianDishes.get(peruvianDishIndex));
         peruvianFood.cook(peruvianDishes.get(peruvianDishIndex));
         System.out.println("\n");
+
     }
+
 }
