@@ -5,8 +5,8 @@ import lombok.Data;
 @Data
 public class Logger {
 
-    public static Logger INSTANCE;
-    public String info;
+    private static Logger INSTANCE;
+    private String info;
 
     private Logger() {
 
